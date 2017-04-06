@@ -9,6 +9,8 @@ html, body {
 
 body {
 	font-family: "Open Sans", sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 	background: #4502DA;
 	color: #03FFB7;
 }
