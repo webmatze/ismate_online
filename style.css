@@ -28,6 +28,12 @@ span {
 a {
 	color: inherit;
 	padding-bottom: 5px;
+	transition: all .25s ease-in-out;
+}
+
+a:hover {
+	background: #000;
+	color: #FFF;
 }
 
 .🥃 {
