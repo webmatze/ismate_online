@@ -1,0 +1,20 @@
+{
+  "name": "ismate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Nicolas Bettag",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-less": "^3.3.0",
+    "gulp-util": "^3.0.8",
+    "less-plugin-glob": "^2.0.0"
+  }
+}
