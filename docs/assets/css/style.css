@@ -12,6 +12,18 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #FF0354;
   color: #03FFB7;
+  animation: argh-my-eyes 0.5s infinite;
+}
+@keyframes argh-my-eyes {
+  0% {
+    background-color: #FF0354;
+  }
+  50% {
+    background-color: #1E212A;
+  }
+  100% {
+    background-color: #FF0354;
+  }
 }
 p {
   font-size: 10em;
