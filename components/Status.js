@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 const StatusText = styled.h1`
   display: block;
-  font-size: 6rem;
-  font-weight: bold;
+  font-size: 10em;
+  font-weight: 800;
   margin: 0;
   text-transform: uppercase;
 `
