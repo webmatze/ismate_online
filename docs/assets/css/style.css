@@ -7,10 +7,10 @@ body {
   height: 100%;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  background: #4502DA;
+  background: #FF0354;
   color: #03FFB7;
 }
 p {
