@@ -1,20 +1,29 @@
 {
-  "name": "ismate",
+  "name": "isMateOnline",
   "version": "1.0.0",
-  "description": "",
+  "description": "Is there any mate in the beverage refrigerator?",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "standard --verbose || snazzy",
+    "precommit": "npm test",
+    "prepush": "npm test"
   },
-  "author": "Nicolas Bettag",
+  "keywords": [],
+  "author": "S2",
   "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^2.0.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "styled-components": "^1.4.4"
+  },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-clean-css": "^3.0.4",
-    "gulp-csscomb": "^3.0.8",
-    "gulp-less": "^3.3.0",
-    "gulp-util": "^3.0.8",
-    "less-plugin-glob": "^2.0.0"
+    "husky": "^0.13.3",
+    "snazzy": "^6.0.0",
+    "standard": "^10.0.0"
   }
 }
