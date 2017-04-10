@@ -17,13 +17,13 @@
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "next": "^2.1.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
     "styled-components": "^1.4.4"
   },
   "devDependencies": {
     "husky": "^0.13.3",
-    "snazzy": "^6.0.0",
+    "snazzy": "^7.0.0",
     "standard": "^10.0.1"
   }
 }
