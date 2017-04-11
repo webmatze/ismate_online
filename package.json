@@ -1,13 +1,11 @@
 {
-  "name": "ismate",
+  "name": "ismate_online",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "gulp"
+  "description": "Is there any mate in the beverage refrigerator?",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
   },
-  "author": "Nicolas Bettag",
-  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
@@ -16,5 +14,23 @@
     "gulp-less": "^3.3.0",
     "gulp-util": "^3.0.8",
     "less-plugin-glob": "^2.0.0"
-  }
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasbettag/ismate_online.git"
+  },
+  "keywords": [
+    "mate",
+    "beverage",
+    "refrigerator"
+  ],
+  "author": "Nicolas Bettag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolasbettag/ismate_online/issues"
+  },
+  "homepage": "https://github.com/nicolasbettag/ismate_online#readme"
 }
