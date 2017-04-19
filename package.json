@@ -16,14 +16,14 @@
   "license": "MIT",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
-    "next": "^2.1.0",
-    "react": "^15.5.3",
-    "react-dom": "^15.5.3",
-    "styled-components": "^1.4.4"
+    "next": "^2.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^1.4.5"
   },
   "devDependencies": {
     "husky": "^0.13.3",
     "snazzy": "^7.0.0",
-    "standard": "^10.0.1"
+    "standard": "^10.0.2"
   }
 }
